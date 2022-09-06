@@ -1,25 +1,32 @@
 .carousel_header {
   background-color: #000;
-  height: 100%;
+  /* height: 100%; */
 }
 .carousel_header img {
   opacity: 0.5;
 }
-
+.carousel_img {
+  height: 100%;
+}
 .carousen_content {
   position: absolute;
   top: 50%;
   transform: translateY(-60%);
   font-size: clamp(0.5rem, 1.5vw, 1.5rem);
-  height: 50%;
 }
 
 .carousen_content h1 {
-  font-size: clamp(0.2rem, 4vw, 4rem);
+  font-size: clamp(1.7rem, 4vw, 4rem);
 }
 
 @media only screen and (max-width: 576px) {
   .header_btn {
     font-size: 10px;
+  }
+  .carousen_content {
+    /* transform: translateY(-95%); */
+  }
+  .carousel .carousel-item {
+    height: 45vh;
   }
 }
