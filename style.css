@@ -1,6 +1,18 @@
+/* Common Styles */
+.btn_common {
+  background-color: #289bde;
+  padding: 15px 50px;
+}
+.btn_text {
+  color: #289bde;
+}
+.btn_border {
+  border-color: #289bde;
+}
+
+/* Header Styles */
 .carousel_header {
   background-color: #000;
-  /* height: 100%; */
 }
 .carousel_header img {
   opacity: 0.5;
@@ -8,15 +20,27 @@
 .carousel_img {
   height: 100%;
 }
-.carousen_content {
+.carousel_content {
   position: absolute;
   top: 50%;
   transform: translateY(-60%);
-  font-size: clamp(0.5rem, 1.5vw, 1.5rem);
+  font-size: clamp(1rem, 1.5vw, 1.5rem);
 }
 
-.carousen_content h1 {
+.carousel_content h1 {
   font-size: clamp(1.7rem, 4vw, 4rem);
+}
+
+/* Header Ends */
+
+.subscribe {
+  height: 350px;
+  background-color: #289bde;
+}
+.regiter_btn {
+  color: #289bde;
+  height: 50px;
+  width: 180px;
 }
 
 @media only screen and (max-width: 576px) {
@@ -24,7 +48,7 @@
     font-size: 10px;
   }
   .carousen_content {
-    /* transform: translateY(-95%); */
+    transform: translateY(-80%);
   }
   .carousel .carousel-item {
     height: 45vh;
