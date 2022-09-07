@@ -425,7 +425,9 @@
         <div class="modal-dialog modal-dialog-centered">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+              <h5 class="modal-title" id="staticBackdropLabel">
+                Free Registration
+              </h5>
               <button
                 type="button"
                 class="btn-close"
@@ -433,7 +435,71 @@
                 aria-label="Close"
               ></button>
             </div>
-            <div class="modal-body">...</div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col">
+                  <div class="form-floating mb-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="floatingInput"
+                      placeholder="John"
+                    />
+                    <label for="floatingInput">First Name</label>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="form-floating mb-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="floatingInput"
+                      placeholder="Doe"
+                    />
+                    <label for="floatingInput">Last Name</label>
+                  </div>
+                </div>
+              </div>
+              <div class="form-floating mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="floatingInput"
+                  placeholder="name@example.com"
+                />
+                <label for="floatingInput">Email Address</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input
+                  type="password"
+                  class="form-control"
+                  id="floatingPassword"
+                  placeholder="Password"
+                />
+                <label for="floatingPassword">Password</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input
+                  type="number"
+                  class="form-control"
+                  id="floatingPassword"
+                  placeholder="Phone Number"
+                />
+                <label for="floatingPassword">Phone Number</label>
+              </div>
+              <div class="form-floating">
+                <select
+                  class="form-select"
+                  id="floatingSelect"
+                  aria-label="Floating label select example"
+                >
+                  <option value="">Country</option>
+                  <option value="Bangladesh">Bangladesh</option>
+                  <option value="India">India</option>
+                </select>
+                <label for="floatingSelect">Select Your Location</label>
+              </div>
+            </div>
             <div class="modal-footer">
               <button
                 type="button"
@@ -445,6 +511,7 @@
               <button
                 type="button"
                 class="border-0 rounded-1 fs-6 btn_common text-white header_btn"
+                data-bs-dismiss="modal"
               >
                 Register
               </button>
