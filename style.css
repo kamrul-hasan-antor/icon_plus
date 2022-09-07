@@ -9,10 +9,6 @@
 .btn_border {
   border-color: #289bde !important;
 }
-/* Navbar */
-.navbar_sec {
-  height: 50px;
-}
 
 /* Header Styles */
 .carousel_header {
@@ -51,6 +47,18 @@
 
 .fa-star {
   color: #fbbf24;
+}
+
+.review_slider_icon_left {
+  background-color: #e5f6ff;
+  padding: 6px 12px;
+  color: #289bde;
+}
+
+.review_slider_icon_right {
+  background-color: #289bde;
+  padding: 6px 12px;
+  color: #e5f6ff;
 }
 
 @media only screen and (max-width: 576px) {
