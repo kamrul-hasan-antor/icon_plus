@@ -9,6 +9,10 @@
 .btn_border {
   border-color: #289bde !important;
 }
+/* Navbar */
+.navbar_sec {
+  height: 50px;
+}
 
 /* Header Styles */
 .carousel_header {
@@ -41,6 +45,12 @@
   color: #289bde;
   height: 50px;
   width: 180px;
+}
+
+/*  */
+
+.fa-star {
+  color: #fbbf24;
 }
 
 @media only screen and (max-width: 576px) {
