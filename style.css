@@ -1,13 +1,13 @@
 /* Common Styles */
 .btn_common {
   background-color: #289bde;
-  padding: 15px 50px;
+  padding: 8px 30px;
 }
 .btn_text {
   color: #289bde;
 }
 .btn_border {
-  border-color: #289bde;
+  border-color: #289bde !important;
 }
 
 /* Header Styles */
@@ -23,7 +23,7 @@
 .carousel_content {
   position: absolute;
   top: 50%;
-  transform: translateY(-60%);
+  transform: translateY(-65%);
   font-size: clamp(1rem, 1.5vw, 1.5rem);
 }
 
@@ -51,6 +51,6 @@
     transform: translateY(-80%);
   }
   .carousel .carousel-item {
-    height: 45vh;
+    height: 50vh;
   }
 }
